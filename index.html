@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="A card pyramid of height 11 is constructed by resting two cards against each other. For h&amp;gt;1h&amp;gt;1" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Codeforces Round #639 (Div. 2) B.Card Constructions - 脂环 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="https://www.cnblogs.com/css/blog-common.min.css" />
+    <link id="MainCss" rel="stylesheet" href="https://www.cnblogs.com/skins/simplememory/bundle-simplememory.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/lipoicyclic/custom.css?v=Cc2W3iC33WTM20MWgTf6sf5fuoU=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="https://www.cnblogs.com/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/lipoicyclic/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/lipoicyclic/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/lipoicyclic/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="https://www.cnblogs.com/js/blog-common.min.js"></script>
+    <script>
+        var currentBlogId = 574446;
+        var currentBlogApp = 'lipoicyclic';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <div class="c-notice">
+  <div>
+    
+  </div>
+</div>
+
+<div class="c-portrait">
+  <img src="//pic.cnblogs.com/avatar/1626919/20200121120039.png" alt="" />
+
+  <h1><a href="https://www.cnblogs.com/lipoicyclic/">脂环</a></h1>
+  <h2>成环实验无闲暇</h2>
+
+  <div class="c-social">
+    <!--  -->
+  </div>
+</div>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/lipoicyclic/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/lipoicyclic/">脂环</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/lipoicyclic/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%84%82%E7%8E%AF">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/lipoicyclic/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+270&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+25</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2 vertical-middle" href="https://www.cnblogs.com/lipoicyclic/p/12873382.html">
+    <span>Codeforces Round #639 (Div. 2) B.Card Constructions</span>
+    
+
+
+</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <div>
+<p>A card pyramid of height <span class="MathJax_Preview"><span id="MathJax-Element-1-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-1" class="math"><span id="MathJax-Span-2" class="mrow"><span id="MathJax-Span-3" class="mn">1</span></span></span><span class="MJX_Assistive_MathML">1 is constructed by resting two cards against each other. For <span class="MathJax_Preview"><span id="MathJax-Element-2-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-4" class="math"><span id="MathJax-Span-5" class="mrow"><span id="MathJax-Span-6" class="mi">h<span id="MathJax-Span-7" class="mo">&gt;<span id="MathJax-Span-8" class="mn">1</span></span></span></span></span><span class="MJX_Assistive_MathML">h&gt;1, a card pyramid of height <span class="MathJax_Preview"><span id="MathJax-Element-3-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-9" class="math"><span id="MathJax-Span-10" class="mrow"><span id="MathJax-Span-11" class="mi">h</span></span></span><span class="MJX_Assistive_MathML">h is constructed by placing a card pyramid of height <span class="MathJax_Preview"><span id="MathJax-Element-4-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-12" class="math"><span id="MathJax-Span-13" class="mrow"><span id="MathJax-Span-14" class="mi">h<span id="MathJax-Span-15" class="mo">&minus;<span id="MathJax-Span-16" class="mn">1</span></span></span></span></span><span class="MJX_Assistive_MathML">h&minus;1 onto a base. A base consists of <span class="MathJax_Preview"><span id="MathJax-Element-5-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-17" class="math"><span id="MathJax-Span-18" class="mrow"><span id="MathJax-Span-19" class="mi">h</span></span></span><span class="MJX_Assistive_MathML">h pyramids of height <span class="MathJax_Preview"><span id="MathJax-Element-6-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-20" class="math"><span id="MathJax-Span-21" class="mrow"><span id="MathJax-Span-22" class="mn">1</span></span></span><span class="MJX_Assistive_MathML">1, and <span class="MathJax_Preview"><span id="MathJax-Element-7-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-23" class="math"><span id="MathJax-Span-24" class="mrow"><span id="MathJax-Span-25" class="mi">h<span id="MathJax-Span-26" class="mo">&minus;<span id="MathJax-Span-27" class="mn">1</span></span></span></span></span><span class="MJX_Assistive_MathML">h&minus;1 cards on top. For example, card pyramids of heights <span class="MathJax_Preview"><span id="MathJax-Element-8-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-28" class="math"><span id="MathJax-Span-29" class="mrow"><span id="MathJax-Span-30" class="mn">1</span></span></span><span class="MJX_Assistive_MathML">1, <span class="MathJax_Preview"><span id="MathJax-Element-9-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-31" class="math"><span id="MathJax-Span-32" class="mrow"><span id="MathJax-Span-33" class="mn">2</span></span></span><span class="MJX_Assistive_MathML">2, and <span class="MathJax_Preview"><span id="MathJax-Element-10-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-34" class="math"><span id="MathJax-Span-35" class="mrow"><span id="MathJax-Span-36" class="mn">3</span></span></span><span class="MJX_Assistive_MathML">3 look as follows:</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<center><img class="tex-graphics" src="https://espresso.codeforces.com/03d27fa5105a849bb8363e064d735c2d4240187a.png" alt=""></center>
+<p>You start with <span class="MathJax_Preview"><span id="MathJax-Element-11-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-37" class="math"><span id="MathJax-Span-38" class="mrow"><span id="MathJax-Span-39" class="mi">n</span></span></span><span class="MJX_Assistive_MathML">n cards and build the tallest pyramid that you can. If there are some cards remaining, you build the tallest pyramid possible with the remaining cards. You repeat this process until it is impossible to build another pyramid. In the end, how many pyramids will you have constructed?</span></span></span></p>
+</div>
+<div class="input-specification">
+<div class="section-title">Input</div>
+<p>Each test consists of multiple test cases. The first line contains a single integer <span class="MathJax_Preview"><span id="MathJax-Element-12-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-40" class="math"><span id="MathJax-Span-41" class="mrow"><span id="MathJax-Span-42" class="mi">t</span></span></span><span class="MJX_Assistive_MathML">t (<span class="MathJax_Preview"><span id="MathJax-Element-13-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;&amp;#x2264;&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;&amp;#x2264;&lt;/mo&gt;&lt;mn&gt;1000&lt;/mn&gt;&lt;/math&gt;"><span id="MathJax-Span-43" class="math"><span id="MathJax-Span-44" class="mrow"><span id="MathJax-Span-45" class="mn">1<span id="MathJax-Span-46" class="mo">&le;<span id="MathJax-Span-47" class="mi">t<span id="MathJax-Span-48" class="mo">&le;<span id="MathJax-Span-49" class="mn">1000</span></span></span></span></span></span></span><span class="MJX_Assistive_MathML">1&le;t&le;1000)&nbsp;&mdash; the number of test cases. Next <span class="MathJax_Preview"><span id="MathJax-Element-14-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-50" class="math"><span id="MathJax-Span-51" class="mrow"><span id="MathJax-Span-52" class="mi">t</span></span></span><span class="MJX_Assistive_MathML">t lines contain descriptions of test cases.</span></span></span></span></span></span></span></span></span></p>
+<p>Each test case contains a single integer <span class="MathJax_Preview"><span id="MathJax-Element-15-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-53" class="math"><span id="MathJax-Span-54" class="mrow"><span id="MathJax-Span-55" class="mi">n</span></span></span><span class="MJX_Assistive_MathML">n (<span class="MathJax_Preview"><span id="MathJax-Element-16-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;&amp;#x2264;&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;&amp;#x2264;&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt;"><span id="MathJax-Span-56" class="math"><span id="MathJax-Span-57" class="mrow"><span id="MathJax-Span-58" class="mn">1<span id="MathJax-Span-59" class="mo">&le;<span id="MathJax-Span-60" class="mi">n<span id="MathJax-Span-61" class="mo">&le;<span id="MathJax-Span-62" class="msubsup"><span id="MathJax-Span-63" class="mn">10<span id="MathJax-Span-64" class="mn">9</span></span></span></span></span></span></span></span></span><span class="MJX_Assistive_MathML">1&le;n&le;109)&nbsp;&mdash; the number of cards.</span></span></span></span></span></span></p>
+<p>It is guaranteed that the sum of <span class="MathJax_Preview"><span id="MathJax-Element-17-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;"><span id="MathJax-Span-65" class="math"><span id="MathJax-Span-66" class="mrow"><span id="MathJax-Span-67" class="mi">n</span></span></span><span class="MJX_Assistive_MathML">n over all test cases does not exceed <span class="MathJax_Preview"><span id="MathJax-Element-18-Frame" class="MathJax" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt;"><span id="MathJax-Span-68" class="math"><span id="MathJax-Span-69" class="mrow"><span id="MathJax-Span-70" class="msubsup"><span id="MathJax-Span-71" class="mn">10<span id="MathJax-Span-72" class="mn">9</span></span></span></span></span><span class="MJX_Assistive_MathML">109.</span></span></span></span></span></span></p>
+</div>
+<div class="output-specification">
+<div class="section-title">Output</div>
+<p>For each test case output a single integer&nbsp;&mdash; the number of pyramids you will have constructed in the end.</p>
+</div>
+<div class="sample-tests">
+<div class="section-title">Example</div>
+<div class="sample-test">
+<div class="input">
+<div class="title">Input
+<div id="id009947385456868352" class="input-output-copier" title="Copy" data-clipboard-target="#id0020714381114553504">Copy</div>
+</div>
+<pre>5
+3
+14
+15
+24
+1
+</pre>
+</div>
+<div class="output">
+<div class="title">Output
+<div id="id0023602116840567366" class="input-output-copier" title="Copy" data-clipboard-target="#id005715838380778477">Copy</div>
+</div>
+<pre>1
+2
+1
+3
+<span style="font-size: 14px;">0</span><br /><span style="font-size: 14px;">预处理出不同层数对应的金字塔所需要的边，然后二分查找第一个小于等于n的数，累加答案更新n继续进行直到n&lt;2。</span><br /><span style="font-size: 14px;">别看代码，直接从最大的数往下遍历就好(不用每次都二分<br /></span></pre>
+<div class="cnblogs_code">
+<pre>#include &lt;bits/stdc++.h&gt;
+<span style="color: #0000ff;">using</span> <span style="color: #0000ff;">namespace</span><span style="color: #000000;"> std;
+</span><span style="color: #0000ff;">int</span> h[<span style="color: #800080;">100005</span><span style="color: #000000;">];
+</span><span style="color: #0000ff;">int</span><span style="color: #000000;"> main()
+{
+    </span><span style="color: #0000ff;">int</span><span style="color: #000000;"> i;
+    h[</span><span style="color: #800080;">1</span>]=<span style="color: #800080;">2</span><span style="color: #000000;">;
+    </span><span style="color: #0000ff;">for</span>(i=<span style="color: #800080;">2</span>;i&lt;=<span style="color: #800080;">100000</span>;i++<span style="color: #000000;">)
+    {
+        h[i]</span>=<span style="color: #800080;">2</span>+(i-<span style="color: #800080;">1</span>)*<span style="color: #800080;">5</span>+(i-<span style="color: #800080;">1</span>)*(i-<span style="color: #800080;">2</span>)/<span style="color: #800080;">2</span>*<span style="color: #800080;">3</span><span style="color: #000000;">;
+    }
+    </span><span style="color: #0000ff;">int</span><span style="color: #000000;"> t;
+    cin</span>&gt;&gt;<span style="color: #000000;">t;
+    </span><span style="color: #0000ff;">while</span>(t--<span style="color: #000000;">)
+    {
+        </span><span style="color: #0000ff;">int</span> n,ans=<span style="color: #800080;">0</span><span style="color: #000000;">;
+        cin</span>&gt;&gt;<span style="color: #000000;">n;
+        </span><span style="color: #0000ff;">while</span>(n&gt;=<span style="color: #800080;">2</span><span style="color: #000000;">)
+        {
+            </span><span style="color: #0000ff;">int</span> pos=lower_bound(h+<span style="color: #800080;">1</span>,h+<span style="color: #800080;">100000</span>+<span style="color: #800080;">1</span>,n)-<span style="color: #000000;">h;
+            </span><span style="color: #0000ff;">if</span>(h[pos]==<span style="color: #000000;">n)
+            {
+                ans</span>++<span style="color: #000000;">;
+                </span><span style="color: #0000ff;">break</span><span style="color: #000000;">;
+            }
+            </span><span style="color: #0000ff;">else</span> pos--<span style="color: #000000;">;
+            </span><span style="color: #0000ff;">if</span>(pos&lt;<span style="color: #800080;">1</span>||pos&gt;<span style="color: #800080;">100000</span>)<span style="color: #0000ff;">break</span><span style="color: #000000;">;
+            ans</span>++<span style="color: #000000;">;
+            n</span>-=<span style="color: #000000;">h[pos];
+        }
+        cout</span>&lt;&lt;ans&lt;&lt;<span style="color: #000000;">endl;
+    }
+    </span><span style="color: #0000ff;">return</span> <span style="color: #800080;">0</span><span style="color: #000000;">;
+}</span></pre>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-11 23:58</span>&nbsp;
+<a href="https://www.cnblogs.com/lipoicyclic/">脂环</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12873382" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12873382);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 574446, cb_blogApp = 'lipoicyclic', cb_blogUserGuid = '85dd1974-ae16-4b11-00be-08d6a51fb100';
+    var cb_entryId = 12873382, cb_entryCreatedDate = '2020-05-11 23:58', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id='div-gpt-ad-1592365906576-0' style='width: 300px; height: 250px;'></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id='div-gpt-ad-1592366332455-0' style='width: 468px; height: 60px;'></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverT2();
+        deliverC1C2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 脂环
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script>
+!function(){
+ function n(n,e,t){
+ return n.getAttribute(e)||t
+ }
+ function e(n){
+ return document.getElementsByTagName(n)
+ }
+ function t(){
+ var t=e("script"),o=t.length,i=t[o-1];
+ return{
+ l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",99)
+ }
+ }
+ function o(){
+ a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,
+ c=m.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight
+ }
+ function i(){
+ r.clearRect(0,0,a,c);
+ var n,e,t,o,m,l;
+ s.forEach(function(i,x){
+ for(i.x+=i.xa,i.y+=i.ya,i.xa*=i.x>a||i.x<0?-1:1,i.ya*=i.y>c||i.y<0?-1:1,r.fillRect(i.x-.5,i.y-.5,1,1),e=x+1;e<u.length;e++)n=u[e],
+ null!==n.x&&null!==n.y&&(o=i.x-n.x,m=i.y-n.y,
+ l=o*o+m*m,l<n.max&&(n===y&&l>=n.max/2&&(i.x-=.03*o,i.y-=.03*m),
+ t=(n.max-l)/n.max,r.beginPath(),r.lineWidth=t/2,r.strokeStyle="rgba("+d.c+","+(t+.2)+")",r.moveTo(i.x,i.y),r.lineTo(n.x,n.y),r.stroke()))
+ }),
+ x(i)
+ }
+ var a,c,u,m=document.createElement("canvas"),
+ d=t(),l="c_n"+d.l,r=m.getContext("2d"),
+x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||
+ function(n){
+ window.setTimeout(n,1e3/45)
+ },
+ w=Math.random,y={x:null,y:null,max:2e4};m.id=l,m.style.cssText="position:fixed;top:0;left:0;z-index:"+d.z+";opacity:"+d.o,e("body")[0].appendChild(m),o(),window.onresize=o,
+ window.onmousemove=function(n){
+ n=n||window.event,y.x=n.clientX,y.y=n.clientY
+ },
+ window.onmouseout=function(){
+ y.x=null,y.y=null
+ };
+ for(var s=[],f=0;d.n>f;f++){
+ var h=w()*a,g=w()*c,v=2*w()-1,p=2*w()-1;s.push({x:h,y:g,xa:v,ya:p,max:6e3})
+ }
+ u=s.concat([y]),
+ setTimeout(function(){i()},100)
+ }();
+ </script>
+
+<link  type="text/css" rel="stylesheet" href="https://blog-static.cnblogs.com/files/zouwangblog/comment.css">
+<script type="text/javascript">
+$(function(){
+    $('#blogTitle h1').addClass('bounceInLeft animated');
+    $('#blogTitle h2').addClass('bounceInRight animated');
+    // 删除反对按钮    $('.buryit').remove();
+    initCommentData();
+});
+function initCommentData() {
+    $('.feedbackItem').each(function() {
+        var text = $(this).find('.feedbackListSubtitle .layer').text();
+        // 将楼层信息放到data里面
+        // $(this).find('.blog_comment_body').attr('data-louceng', text.replace(/^#/g, ''));
+        if($(this).find('.feedbackListSubtitle .louzhu').length>0) $(this).addClass('myself');
+        var avatar = $(this).find('> .feedbackCon > span').html() || 'http://pic.cnitblog.com/face/sample_face.gif';
+        $(this).find('> .feedbackCon > .blog_comment_body').append('<img class="user-avatar" src="'+avatar+'"/>')
+    });
+}
+
+$(document).ajaxComplete(function(event, xhr, settings) {
+  // 监听获取评论ajax事件
+  if(settings.url.indexOf('/mvc/blog/GetComments.aspx') >= 0) {
+    initCommentData();
+  }
+});
+</script>
+    </div>
+</body>
+</html>
